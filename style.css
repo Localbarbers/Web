@@ -13,7 +13,139 @@
 }
 
 .hero-text{
-    color: whitesmoke;
+    color: whitesmoke;    * {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+    
+    .hero-image {
+        background-image: url(./images/Screenshot%202025-06-13%20092450.png);
+        height: 352px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .hero-text {
+        color: whitesmoke;
+        position: absolute;
+        text-align: center;
+        top: 180px;
+        width: 100%;
+        font-size: 4rem;
+    }
+    
+    .two-column {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 50px;
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    .info {
+        font-size: 1.25em;
+    }
+    
+    .three-column {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    .card {
+        background-color: #007BFF;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h2 {
+        margin-bottom: 10px;
+    }
+    
+    .card p {
+        font-size: 1em;
+    }    * {
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        background-color: #f4f4f4;
+        color: #333;
+        line-height: 1.6;
+    }
+    
+    .hero-image {
+        background-image: url();
+        height: 352px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+    }
+    
+    .hero-text {
+        color: whitesmoke;
+        position: absolute;
+        text-align: center;
+        top: 180px;
+        width: 100%;
+        font-size: 4rem;
+    }
+    
+    .two-column {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        gap: 50px;
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    .info {
+        font-size: 1.25em;
+    }
+    
+    .three-column {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 50px;
+        width: 80%;
+        margin: 40px auto;
+    }
+    
+    .card {
+        background-color: #007BFF;
+        color: white;
+        padding: 20px;
+        text-align: center;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .card h2 {
+        margin-bottom: 10px;
+    }
+    
+    .card p {
+        font-size: 1em;
+    }
     position: absolute;
     text-align: center;
     top: 180px;
@@ -51,3 +183,40 @@
 .card-text{
     text-align: center;
 }
+
+.image{
+    width: 50%;
+    height: 100px;
+    object-fit: cover;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: #04AA6D;
+  }
